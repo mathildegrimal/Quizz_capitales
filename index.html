@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital Quizz</title>
+    <link rel="stylesheet" href="style_capitales.css">
+</head>
+<body>
+    <div class="container">
+        <button id="play" onclick="loadCountry()">Play</button>
+        <div id="score"></div>
+        <div id="game" class="game">
+            <div id="pays" class="pays">Pays</div>
+            <img id="drapeau" class="drapeau" src=''>
+            <button onclick="findCapital('option1')" id="option1">Capitale 1</button>
+            <button onclick="findCapital('option2')" id="option2">Capitale 2</button>
+            <button onclick="findCapital('option3')" id="option3">Capitale 3</button>
+            <button onclick="findCapital('option4')" id="option4">Capitale 4</button>
+        </div>
+    </div>
+    <script src="main_capitales.js"></script>
+</body>
+</html>

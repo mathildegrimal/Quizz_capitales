@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
+body {
+    font-family: Raleway;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('drapeaueurop.jpeg');
+    background-size: cover;
+}
+
+.container {
+    border-radius: 5px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:60%;
+    margin-top: 100px;
+    height:800px;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;    
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button{
+    margin:5px;
+    width: 100px;
+    height: 30px;
+    border-style:none;
+    border-radius: 5px;
+    color : white;
+    background-color: rgb(33, 79, 148);
+}
+.drapeau{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width:80px;
+    height: 80px;
+}
+
+
+.pays{
+    font-family: Bebas Neue;
+    font-size: 2em;
+}
+
+.boutonFind{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color : white;
+    background-color: rgb(20, 138, 49);
+}
+
+.boutonNotFind{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color : white;
+    background-color: rgb(138, 24, 20);
+}
+.next{
+    background-color: rgb(155, 27, 144);
+}
